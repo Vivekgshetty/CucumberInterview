@@ -1,5 +1,5 @@
 Feature: Hover over login button on Flipkart
-
+@cucumber
   Scenario: User hovers mouse over the login button
     Given User on the Flipkart homepage
     When User hover over the login button

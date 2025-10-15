@@ -5,7 +5,6 @@ import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
-@SuppressWarnings("deprecation")
 @RunWith(Cucumber.class)
 @CucumberOptions(
     features = {
@@ -15,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
     plugin = {
         "pretty",
         "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
-    }
+    },
+    tags="@cucumber"
 )
 public class CucumberRunner {
 
