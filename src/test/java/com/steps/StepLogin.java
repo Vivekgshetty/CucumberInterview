@@ -31,5 +31,6 @@ public class StepLogin {
 	@Then("the login dropdown should be displayed")
 	public void the_login_dropdown_should_be_displayed() {
 	    System.out.println("login dropdown displayed");
+	    driver.quit();
 	}
 }
